@@ -17,7 +17,7 @@ sidebar-avatar: /img/yishuwen.jpg      # use absolute URL, seeing it's used in b
 
 
 # SNS settings
-RSS: true
+RSS: false
 weibo_username: YiSw6876
 # zhihu_username:
 # github_username:
