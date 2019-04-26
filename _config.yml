@@ -77,8 +77,8 @@ disqus_username: yishuwen
 ba_track_id: '450f223bf262d3a285f9259dbc880821'
 
 # Google Analytics
-#ga_track_id: ''            # Format: UA-xxxxxx-xx
-#ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-139151072-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
