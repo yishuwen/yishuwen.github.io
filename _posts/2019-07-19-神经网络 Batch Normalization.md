@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      线性空间(III)
-subtitle:   线性变换
-date:       2019-04-28
+title:      Batch Normalization 神经网络 
+subtitle:   
+date:       2019-07-19
 author:     Yi
 header-img: img/post-bg-math.jpg
 catalog: true
