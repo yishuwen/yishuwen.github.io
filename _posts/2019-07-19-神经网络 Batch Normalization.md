@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Batch Normalization 神经网络 
+title:      Batch Normalization
 subtitle:   
 date:       2019-07-19
 author:     Yi
