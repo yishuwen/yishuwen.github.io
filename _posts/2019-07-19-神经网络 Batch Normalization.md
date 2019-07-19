@@ -27,6 +27,7 @@ tags:
 y^{(k)}=\gamma^{(k)}\hat{x}^{(k)} + \beta^{(k)}
 ```
 
+<img src="/img/BatchNormalization/Fig1.png"  height="330" width="495">
 
 Note: 在训练过程中保存均值、方差以便在推断中使用。
 
