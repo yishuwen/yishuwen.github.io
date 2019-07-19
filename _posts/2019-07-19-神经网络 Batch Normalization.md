@@ -16,22 +16,22 @@ tags:
 ### 训练
 对于单层所有激活输出，各维特征独立作以下变换
 
-``` math
-\hat{x}^{(k)} = \frac{x^{(k)}-E[x^{(k)}]}{\sqrt{Var[x^{(k)}]}}
-```
+
+$$\hat{x}^{(k)} = \frac{x^{(k)}-E[x^{(k)}]}{\sqrt{Var[x^{(k)}]}}$$
+
 
 上式，期望方差以batch中不同样本均值方差代替。
 
 由于经过归一化后使得激活输入落入了激活函数的线性段（例如sigmoid），难以实现神经网络的非线性输出，所以增加以下线性变换，使部分样本激活输入得以落入非线性段，其中gamma与beta为训练变量
-``` math
-y^{(k)}=\gamma^{(k)}\hat{x}^{(k)} + \beta^{(k)}
-```
+
+$$y^{(k)}=\gamma^{(k)}\hat{x}^{(k)} + \beta^{(k)}$$
+
 
 <img src="/img/BatchNormalization/Fig1.png"  height="400" width="495">
 
 Note: 在训练过程中保存均值、方差以便在推断中使用。
 
-
+<img src="/img/BatchNormalization/Fig2.png"  height="800" width="495">
 
 使用时，Batch normalization在激活之前，线性层之后。
 Note：卷积神经网络：每个feature map共享一组参数。
