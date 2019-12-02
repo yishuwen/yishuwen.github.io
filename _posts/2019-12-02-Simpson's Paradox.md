@@ -102,7 +102,7 @@ tags:
 
 参考文献：
 Freedman D, Pisani R, Purves R. Statistics. 3rd edition.[M]// Statistics, 4th Edition. 2007.
----
+
 
 
 
